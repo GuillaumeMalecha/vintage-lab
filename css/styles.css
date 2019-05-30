@@ -98,6 +98,9 @@
 html {
   font-size: 62.5%; }
 
+header {
+  align-content: end; }
+
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -137,3 +140,15 @@ form {
     text-decoration: none;
     color: black;
     border-bottom: transparent solid 1px; }
+
+.ariane {
+  background: lightsteelblue;
+  text-transform: uppercase;
+  margin: 1rem;
+  padding: 0.2rem;
+  width: 100%; }
+  .ariane p {
+    color: white;
+    margin-left: 0; }
+    .ariane p a {
+      color: dimgrey; }
