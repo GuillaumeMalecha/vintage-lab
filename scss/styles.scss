@@ -178,3 +178,22 @@ form {
   }
 }
 
+
+.catMenu {
+  p {
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  ul {
+    list-style-type: none;
+
+    li {
+      margin-top: 0;
+      padding-left: 25px;
+      color: black;
+    }
+  }
+}
