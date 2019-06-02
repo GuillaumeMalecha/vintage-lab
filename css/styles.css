@@ -181,6 +181,9 @@ form {
 .catMenu ul {
   list-style-type: none; }
   .catMenu ul li {
-    margin-top: 0;
-    padding-left: 25px;
+    padding-left: 2rem;
     color: black; }
+
+.article {
+  text-decoration: none;
+  color: black; }
