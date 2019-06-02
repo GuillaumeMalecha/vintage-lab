@@ -97,8 +97,8 @@ body {
 
 .logo {
   max-width: 100%;
-  height: auto;
-  width: inherit;
+  height: 85px;
+  width: 718px;
 }
 
 img {
@@ -212,6 +212,13 @@ form {
   .art-name {
     color: cornflowerblue;
     font-size: 20px;
+  }
+  .art-desc {
+    color: dimgrey;
+  }
+  .art-img {
+    width: 275px;
+    height: 275px;
   }
   &:hover {
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);

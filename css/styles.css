@@ -109,8 +109,8 @@ body {
 
 .logo {
   max-width: 100%;
-  height: auto;
-  width: inherit; }
+  height: 85px;
+  width: 718px; }
 
 img {
   max-width: 100%;
@@ -196,6 +196,11 @@ form {
   .article .art-name {
     color: cornflowerblue;
     font-size: 20px; }
+  .article .art-desc {
+    color: dimgrey; }
+  .article .art-img {
+    width: 275px;
+    height: 275px; }
   .article:hover {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
     transform: scale(1.1); }
