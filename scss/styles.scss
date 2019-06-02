@@ -98,9 +98,10 @@ body {
 .logo {
   max-width: 100%;
   height: auto;
+  width: 900px;
 }
 
-.img {
+img {
   max-width: 100%;
   height: auto;
 }
@@ -110,12 +111,15 @@ body {
   flex-wrap: wrap;
   margin: auto;
   border: cornflowerblue solid 1px;
+  width: 70%;
 }
 
 form {
   display: flex;
   flex-direction: row;
   text-align: right;
+  justify-content: center;
+  align-items: bottom;
 
   input {
     padding: 1rem;
@@ -148,6 +152,7 @@ form {
   text-align: center;
   margin: auto;
   width: 60%;
+  padding: 2rem;
   a {
     padding-bottom: 10px;
     text-decoration: none;
@@ -162,6 +167,8 @@ form {
   margin: 1rem;
   padding: 0.2rem;
   width: 100%;
+  padding-left: 6rem;
+  margin-left: -1rem;
   p {
     color: white;
     margin-left: 0;
@@ -170,3 +177,4 @@ form {
     }
   }
 }
+
