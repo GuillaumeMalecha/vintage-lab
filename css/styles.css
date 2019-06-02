@@ -110,7 +110,7 @@ body {
 .logo {
   max-width: 100%;
   height: auto;
-  width: 900px; }
+  width: inherit; }
 
 img {
   max-width: 100%;
@@ -121,14 +121,14 @@ img {
   flex-wrap: wrap;
   margin: auto;
   border: cornflowerblue solid 1px;
-  width: 70%; }
+  width: 80%; }
 
 form {
   display: flex;
   flex-direction: row;
   text-align: right;
   justify-content: center;
-  align-items: bottom; }
+  align-items: center; }
   form input {
     padding: 1rem; }
   form textarea {
@@ -187,3 +187,5 @@ form {
 .article {
   text-decoration: none;
   color: black; }
+  .article:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5); }

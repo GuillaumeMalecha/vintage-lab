@@ -98,7 +98,7 @@ body {
 .logo {
   max-width: 100%;
   height: auto;
-  width: 900px;
+  width: inherit;
 }
 
 img {
@@ -111,7 +111,7 @@ img {
   flex-wrap: wrap;
   margin: auto;
   border: cornflowerblue solid 1px;
-  width: 70%;
+  width: 80%;
 }
 
 form {
@@ -119,7 +119,7 @@ form {
   flex-direction: row;
   text-align: right;
   justify-content: center;
-  align-items: bottom;
+  align-items: center;
 
   input {
     padding: 1rem;
@@ -200,4 +200,7 @@ form {
 .article {
   text-decoration: none;
   color: black;
+  &:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+  }
 }
