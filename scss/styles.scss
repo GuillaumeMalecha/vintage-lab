@@ -182,10 +182,16 @@ form {
 .catMenu {
   p {
     text-transform: uppercase;
+    &:hover {
+      background-color: cornflowerblue;
+    }
   }
   a {
     text-decoration: none;
     color: black;
+    &:hover {
+      background-color: cornflowerblue;
+    }
   }
   ul {
     list-style-type: none;
@@ -195,12 +201,26 @@ form {
       color: black;
     }
   }
+
 }
 
 .article {
   text-decoration: none;
+  background-color: white;
   color: black;
+  transition: transform .3s;
+  .art-name {
+    color: cornflowerblue;
+    font-size: 20px;
+  }
   &:hover {
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    transform: scale(1.1);
   }
+  .price-container:hover {
+  }
+}
+
+.price-container {
+
 }

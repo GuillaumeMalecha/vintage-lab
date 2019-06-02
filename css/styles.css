@@ -173,10 +173,14 @@ form {
 
 .catMenu p {
   text-transform: uppercase; }
+  .catMenu p:hover {
+    background-color: cornflowerblue; }
 
 .catMenu a {
   text-decoration: none;
   color: black; }
+  .catMenu a:hover {
+    background-color: cornflowerblue; }
 
 .catMenu ul {
   list-style-type: none; }
@@ -186,6 +190,12 @@ form {
 
 .article {
   text-decoration: none;
-  color: black; }
+  background-color: white;
+  color: black;
+  transition: transform .3s; }
+  .article .art-name {
+    color: cornflowerblue;
+    font-size: 20px; }
   .article:hover {
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5); }
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1); }
