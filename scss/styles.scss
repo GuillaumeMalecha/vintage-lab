@@ -106,13 +106,7 @@ img {
   height: auto;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  border: cornflowerblue solid 1px;
-  width: 80%;
-}
+
 
 form {
   display: flex;
@@ -204,6 +198,16 @@ form {
 
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  //margin: auto;
+  border: cornflowerblue solid 0px;
+  width: 80%;
+
+}
+
 .article {
   text-decoration: none;
   background-color: white;
@@ -224,10 +228,14 @@ form {
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
     transform: scale(1.1);
   }
+  .price {
+    
+  }
+  .price-container {
+
+  }
   .price-container:hover {
+
   }
 }
 
-.price-container {
-
-}

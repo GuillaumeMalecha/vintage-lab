@@ -116,13 +116,6 @@ img {
   max-width: 100%;
   height: auto; }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  border: cornflowerblue solid 1px;
-  width: 80%; }
-
 form {
   display: flex;
   flex-direction: row;
@@ -187,6 +180,13 @@ form {
   .catMenu ul li {
     padding-left: 2rem;
     color: black; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: cornflowerblue solid 0px;
+  width: 80%; }
 
 .article {
   text-decoration: none;
