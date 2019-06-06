@@ -204,3 +204,10 @@ form {
   .article:hover {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
     transform: scale(1.1); }
+    .article:hover .price-container {
+      transition: all .5s linear 0s;
+      transform: translateX(1);
+      text-align: right;
+      background-color: cornflowerblue; }
+  .article .price {
+    color: white; }
