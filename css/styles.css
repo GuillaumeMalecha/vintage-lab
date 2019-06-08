@@ -216,3 +216,9 @@ form {
   border-left: grey solid 1px;
   border-top: grey solid 1px;
   align-items: center; }
+
+.bizcard {
+  background-color: #a7cfe2;
+  margin-top: 20px; }
+  .bizcard h2 {
+    background-color: #d6e7f1; }
