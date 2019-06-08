@@ -108,7 +108,7 @@ img {
 
 
 
-form {
+.searchbar, .searchform {
   display: flex;
   flex-direction: row;
   text-align: right;
@@ -134,7 +134,7 @@ form {
 
   .button {
     color: white;
-    background-color: cornflowerblue;
+    background-color: #a7cfe2;
     width: 5rem;
     align-self: center;
     text-align: center;
@@ -156,7 +156,7 @@ form {
 }
 
 .ariane {
-  background: lightsteelblue;
+  background: #a7cfe2;
   text-transform: uppercase;
   margin: 1rem;
   padding: 0.2rem;
@@ -177,14 +177,14 @@ form {
   p {
     text-transform: uppercase;
     &:hover {
-      background-color: cornflowerblue;
+      background-color: #a7cfe2;
     }
   }
   a {
     text-decoration: none;
     color: black;
     &:hover {
-      background-color: cornflowerblue;
+      background-color: #a7cfe2;
     }
   }
   ul {
@@ -201,8 +201,6 @@ form {
 .container {
   display: flex;
   flex-wrap: wrap;
-  //margin: auto;
-  border: cornflowerblue solid 0px;
   width: 80%;
   justify-content: space-between;
 }
@@ -213,7 +211,7 @@ form {
   color: black;
   transition: transform .3s;
   .art-name {
-    color: cornflowerblue;
+    color: #a7cfe2;
     font-size: 20px;
   }
   .art-desc {
@@ -230,7 +228,7 @@ form {
       transition: all .5s linear 0s;
       transform: translateX(1);
       text-align: right;
-      background-color: cornflowerblue;
+      background-color: #a7cfe2;
     }
   }
   .price {
@@ -252,10 +250,10 @@ form {
 
 .card {
   background-color: #a7cfe2;
-  margin-top: 3rem;
+  margin-top: 5rem;
   h2 {
     background-color: #d6e7f1;
-    padding: 3rem;
+    padding: 2rem;
   }
   p {
     line-height: 70%;
@@ -264,9 +262,15 @@ form {
 
 .form {
   background-color: #a7cfe2;
-  margin-top: 3rem;
+  margin-top: 5rem;
   h2 {
     background-color: #d6e7f1;
-    padding: 3rem;
+    padding: 2rem;
+  }
+}
+
+.contactform {
+  p {
+    padding-right: 30px;
   }
 }

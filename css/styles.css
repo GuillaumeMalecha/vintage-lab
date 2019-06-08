@@ -116,24 +116,24 @@ img {
   max-width: 100%;
   height: auto; }
 
-form {
+.searchbar, .searchform {
   display: flex;
   flex-direction: row;
   text-align: right;
   justify-content: center;
   align-items: center; }
-  form input {
+  .searchbar input, .searchform input {
     padding: 1rem; }
-  form textarea {
+  .searchbar textarea, .searchform textarea {
     padding: 2rem; }
-  form label {
+  .searchbar label, .searchform label {
     margin: 1rem 0; }
-  form input, form textarea {
+  .searchbar input, .searchbar textarea, .searchform input, .searchform textarea {
     border-radius: 0.4rem;
     border: solid lightgrey 1px; }
-  form .button {
+  .searchbar .button, .searchform .button {
     color: white;
-    background-color: cornflowerblue;
+    background-color: #a7cfe2;
     width: 5rem;
     align-self: center;
     text-align: center;
@@ -151,7 +151,7 @@ form {
     flex-basis: calc(100% / 5); }
 
 .ariane {
-  background: lightsteelblue;
+  background: #a7cfe2;
   text-transform: uppercase;
   margin: 1rem;
   padding: 0.2rem;
@@ -167,13 +167,13 @@ form {
 .catMenu p {
   text-transform: uppercase; }
   .catMenu p:hover {
-    background-color: cornflowerblue; }
+    background-color: #a7cfe2; }
 
 .catMenu a {
   text-decoration: none;
   color: black; }
   .catMenu a:hover {
-    background-color: cornflowerblue; }
+    background-color: #a7cfe2; }
 
 .catMenu ul {
   list-style-type: none; }
@@ -184,7 +184,6 @@ form {
 .container {
   display: flex;
   flex-wrap: wrap;
-  border: cornflowerblue solid 0px;
   width: 80%;
   justify-content: space-between; }
 
@@ -194,7 +193,7 @@ form {
   color: black;
   transition: transform .3s; }
   .article .art-name {
-    color: cornflowerblue;
+    color: #a7cfe2;
     font-size: 20px; }
   .article .art-desc {
     color: dimgrey; }
@@ -208,7 +207,7 @@ form {
       transition: all .5s linear 0s;
       transform: translateX(1);
       text-align: right;
-      background-color: cornflowerblue; }
+      background-color: #a7cfe2; }
   .article .price {
     color: white; }
 
@@ -219,16 +218,19 @@ form {
 
 .card {
   background-color: #a7cfe2;
-  margin-top: 3rem; }
+  margin-top: 5rem; }
   .card h2 {
     background-color: #d6e7f1;
-    padding: 3rem; }
+    padding: 2rem; }
   .card p {
     line-height: 70%; }
 
 .form {
   background-color: #a7cfe2;
-  margin-top: 3rem; }
+  margin-top: 5rem; }
   .form h2 {
     background-color: #d6e7f1;
-    padding: 3rem; }
+    padding: 2rem; }
+
+.contactform p {
+  padding-right: 30px; }
