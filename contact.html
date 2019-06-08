@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vintage Lab - Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+            <img class="col-sm-6 col-md-6 col-lg-6 logo" src="img/content/logo.png" alt="Logo" name="Logo Vintage Lab">
+                <div class="searchbar col-sm-4 col-md-4 col-lg-4">
+                    <form action="" class="form">
+                        <input class="input" type="text" value="Que recherchez-vous ?"/>
+                        <input class="button" type="button" value="OK" />
+                    </form>
+                </div>
+            </div>
+            <hr>
+                <nav class="nav container col-sm-12">
+                    <a href="home.html">Accueil</a>
+                    <a href="catalog.html">Meubles</a>
+                    <a href="">Luminaires</a>
+                    <a href="">Accessoires</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            <section class="ariane">
+                <p>Vous êtes ici: <a href="#">Contact</a></p>
+            </section>
+        </header>
+
+        <main>
+            <section class="container">
+                <iframe id="map"
+                        title="The Vintage Lab"
+                        width="900"
+                        height="500"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=5.5530738830566415%2C50.62188761134921%2C5.611009597778321%2C50.642085712190244&amp;layer=mapnik&amp;marker=50.63198774655369%2C5.5820417404174805"
+                        allowfullscreen>
+                </iframe>
+            </section>
+            <section class="container col-sm-12">
+                <div class="col-lg-4 col-md-4">
+                    <h2>Infos contact</h2>
+                    <h3>Adresse</h3>
+                    <p>Rue du Nord Belge 4 - 4000 Liège BE</p>
+                    <h3>Email</h3>
+                    <p>liege@vintagelab.com</p>
+                    <h3>Tel</h3>
+                    <p>+32(0)484.77.88.99</p>
+                    <h3>Site</h3>
+                    <p>Vous y êtes</p>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <h2 class="sm-hidden">Contactez-nous</h2>
+                    <form>
+                        <label>Nom</label>
+                        <input type="text" name="nom" value=""/>
+                        <br/>
+                        <label>Prénom</label>
+                        <input type="text" name="prenom" value=""/>
+                        <br/>
+                        <label>Email</label>
+                        <input type="text" name="email" value=""/>
+                        <br/>
+                        <input type="checkbox" name="newsletter" value="Y"><p>Je désire recevoir la newsletter</p>
+                        <input type="submit" name="validate" value="Envoyer"/>
+                        <textarea name="comment">Un commentaire ?</textarea>
+
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+
+    </body>
