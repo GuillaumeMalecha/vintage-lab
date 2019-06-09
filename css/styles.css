@@ -162,7 +162,8 @@ img {
     color: white;
     margin-left: 0; }
     .ariane p a {
-      color: dimgrey; }
+      color: dimgrey;
+      text-decoration: none; }
 
 .catMenu p {
   text-transform: uppercase; }
