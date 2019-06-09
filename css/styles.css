@@ -153,14 +153,12 @@ img {
 .ariane {
   background: #a7cfe2;
   text-transform: uppercase;
-  margin: 1rem;
-  padding: 0.2rem;
-  width: 100%;
-  padding-left: 6rem;
-  margin-left: -1rem; }
+  padding: 1rem 0rem 1rem 1.7rem;
+  margin: 0rem 0rem 3rem -1rem;
+  width: 100%; }
   .ariane p {
     color: white;
-    margin-left: 0; }
+    padding-left: 5rem; }
     .ariane p a {
       color: dimgrey;
       text-decoration: none; }
@@ -235,3 +233,15 @@ img {
 
 .contactform p {
   padding-right: 30px; }
+
+.galery {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; }
+
+footer {
+  width: 100%; }
+  footer p {
+    font-size: 1rem;
+    color: grey;
+    text-align: center; }
