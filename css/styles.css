@@ -186,6 +186,31 @@ img {
   width: 80%;
   justify-content: space-between; }
 
+.opening {
+  padding-top: 4rem;
+  color: dimgrey;
+  background-image: url("../img/home_page_corner.png");
+  background-size: 15rem;
+  background-repeat: no-repeat;
+  background-position: bottom right; }
+  .opening p {
+    font-size: 3rem; }
+  .opening ul {
+    list-style-type: none; }
+
+.readmore {
+  text-decoration: none;
+  text-align: right; }
+  .readmore p {
+    font-size: 1.5rem;
+    color: dimgrey;
+    background-color: white;
+    opacity: 0.9;
+    margin-right: 2rem;
+    padding: 1rem;
+    border: white solid 0px;
+    border-radius: 10px; }
+
 .article {
   text-decoration: none;
   background-color: white;
