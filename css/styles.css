@@ -234,6 +234,20 @@ img {
   .article .price {
     color: white; }
 
+.art-detail h1 {
+  color: dimgrey;
+  font-size: 4rem; }
+
+.art-detail h2 {
+  color: #a7cfe2;
+  font-size: 3rem; }
+
+.art-detail h3 {
+  color: white;
+  background-color: #a7cfe2;
+  width: 40rem;
+  padding: 5px; }
+
 .map {
   border-left: grey solid 1px;
   border-top: grey solid 1px;

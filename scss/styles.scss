@@ -271,6 +271,23 @@ img {
   }
 }
 
+.art-detail {
+  h1 {
+    color: dimgrey;
+    font-size: 4rem;
+  }
+  h2 {
+    color: #a7cfe2;
+    font-size: 3rem;
+  }
+  h3 {
+    color: white;
+    background-color: #a7cfe2;
+    width: 40rem;
+    padding: 5px;
+  }
+}
+
 .map {
   border-left: grey solid 1px;
   border-top: grey solid 1px;
