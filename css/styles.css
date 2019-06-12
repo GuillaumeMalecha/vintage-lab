@@ -248,6 +248,9 @@ img {
   width: 40rem;
   padding: 5px; }
 
+.art-detail h4 {
+  font-size: 2rem; }
+
 .map {
   border-left: grey solid 1px;
   border-top: grey solid 1px;
