@@ -205,6 +205,7 @@ img {
 
 }
 
+
 .opening {
   padding-top : 4rem;
   color: dimgrey;
@@ -234,7 +235,7 @@ img {
     }
 }
 
-
+//style des éléments de la page d'un article détaillé
 .article {
   text-decoration: none;
   background-color: white;
@@ -263,7 +264,6 @@ img {
   }
   .price {
     color: white;
-    //text-align: left;
   }
   .price-container {
 
@@ -292,6 +292,7 @@ img {
   }
 }
 
+//style de la page contact
 .map {
   border-left: grey solid 1px;
   border-top: grey solid 1px;
@@ -304,6 +305,7 @@ img {
   h2 {
     background-color: #d6e7f1;
     padding: 2rem;
+    margin-top: 0px;
   }
   p {
     line-height: 70%;
@@ -317,6 +319,7 @@ img {
   h2 {
     background-color: #d6e7f1;
     padding: 2rem;
+    margin-top: 0px;
   }
 }
 
@@ -324,6 +327,19 @@ img {
   p {
     padding-right: 30px;
   }
+}
+
+.buttonform {
+  color: cornflowerblue;
+  background-color: white;
+  width: 12rem;
+  align-self: center;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px;
 }
 
 //propriété des images de la galerie, pour l'instant ne fonctionne que sur Firefox

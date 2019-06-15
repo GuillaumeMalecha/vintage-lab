@@ -259,7 +259,8 @@ img {
   margin-top: 5rem; }
   .card h2 {
     background-color: #d6e7f1;
-    padding: 2rem; }
+    padding: 2rem;
+    margin-top: 0px; }
   .card p {
     line-height: 70%; }
 
@@ -268,10 +269,23 @@ img {
   margin-top: 5rem; }
   .form h2 {
     background-color: #d6e7f1;
-    padding: 2rem; }
+    padding: 2rem;
+    margin-top: 0px; }
 
 .contactform p {
   padding-right: 30px; }
+
+.buttonform {
+  color: cornflowerblue;
+  background-color: white;
+  width: 12rem;
+  align-self: center;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px; }
 
 .gallery {
   max-width: 100%;
