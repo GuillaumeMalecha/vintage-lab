@@ -8,6 +8,7 @@
     max-width: $tablet - 1px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-between;
   }
 
   .hidden {
@@ -34,6 +35,7 @@
     max-width: $desktop - 1px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-between;
   }
 
   .hidden {
@@ -59,7 +61,10 @@
 
   .container {
     display: flex;
+    flex-wrap: wrap;
+    width: 80%;
     max-width: 2000px;
+    justify-content: space-between;
   }
 
   .hidden {
@@ -97,11 +102,6 @@ body {
   background-color: white;
 }
 
-.logo {
-  height: 85px;
-  width: auto;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -109,6 +109,11 @@ img {
 
 
 //style de la barre de recherche en tête de chaque page
+.logo {
+  height: 85px;
+  width: auto;
+}
+
 .searchbar, .searchform {
   display: flex;
   flex-direction: row;
@@ -143,6 +148,7 @@ img {
   }
 }
 
+//style du menu en haut de chaque page
 .nav {
   text-align: center;
   margin: auto;
@@ -173,7 +179,7 @@ img {
   }
 }
 
-
+//style du menu du catalogue
 .catMenu {
   p {
     text-transform: uppercase;
@@ -197,13 +203,6 @@ img {
     }
   }
 
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  justify-content: space-between;
 }
 
 .opening {
