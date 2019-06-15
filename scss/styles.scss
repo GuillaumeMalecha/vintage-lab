@@ -1,5 +1,6 @@
 @import "partials/_mediaqueries.scss";
 
+//déclaration des différentes vues de pages.
 @media screen and (min-width: $mobile) {
 
   .container {
@@ -79,6 +80,7 @@
   .col-lg-1 { flex-basis: calc(100% / 12 * 1);}
 }
 
+//style général de la page
 html {
   font-size: 62.5%;
 }
@@ -107,7 +109,7 @@ img {
 }
 
 
-
+//style de la barre de recherche en tête de chaque page
 .searchbar, .searchform {
   display: flex;
   flex-direction: row;
@@ -155,6 +157,7 @@ img {
   }
 }
 
+//style du fil d'ariane
 .ariane {
   background: #a7cfe2;
   text-transform: uppercase;
@@ -309,6 +312,7 @@ img {
   }
 }
 
+
 .form {
   background-color: #a7cfe2;
   margin-top: 5rem;
@@ -324,12 +328,14 @@ img {
   }
 }
 
+//propriété des images de la galerie, pour l'instant ne fonctionne que sur Firefox
 .gallery {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   object-fit: contain;
 }
 
+//style du bas de page
 footer {
   width: 100%;
   p {

@@ -277,7 +277,7 @@ img {
 
 .gallery {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
   object-fit: contain; }
 
 footer {
