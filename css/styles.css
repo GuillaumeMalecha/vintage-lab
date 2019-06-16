@@ -272,7 +272,10 @@ img {
     padding: 2rem;
     margin-top: 0px; }
   .card p {
-    line-height: 70%; }
+    line-height: 70%;
+    padding-left: 2rem; }
+  .card strong {
+    padding-left: 1.5rem; }
 
 .form {
   background-color: #AAD5DF;
