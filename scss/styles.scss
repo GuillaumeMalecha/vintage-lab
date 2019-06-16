@@ -1,4 +1,5 @@
 @import "partials/_mediaqueries.scss";
+@import "partials/_colors.scss";
 
 //déclaration des différentes vues de pages.
 @media screen and (min-width: $mobile) {
@@ -90,6 +91,7 @@
 //style général de la page
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 
@@ -100,9 +102,8 @@ header {
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: black;
+  color: $color3;
   background-color: white;
-  box-sizing: border-box;
 }
 
 img {
@@ -111,7 +112,7 @@ img {
 }
 
 
-//style de la barre de recherche en tête de chaque page
+//style de l'en tête de chaque page
 .logo {
   height: 85px;
   width: auto;
@@ -143,7 +144,7 @@ img {
 
   .button {
     color: white;
-    background-color: #a7cfe2;
+    background-color: $color1;
     width: 5rem;
     align-self: center;
     text-align: center;
@@ -153,21 +154,27 @@ img {
 
 //style du menu en haut de chaque page
 .nav {
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: auto;
   width: 60%;
   padding: 2rem;
   a {
-    padding-bottom: 10px;
+    padding-bottom: 1.5rem;
     text-decoration: none;
-    color: black;
+    color: $color3;
+    border-bottom: white solid 2px;
     flex-basis: calc(100% / 5);
+    &:hover {
+      border-bottom: $color3 solid 2px;
+    }
   }
+
 }
 
 //style du fil d'ariane
 .ariane {
-  background: #a7cfe2;
+  background: $color1;
   text-transform: uppercase;
   padding: 1rem 0rem 1rem 1.7rem;
   margin: 0rem 0rem 3rem -1rem;
@@ -176,7 +183,7 @@ img {
     color: white;
     padding-left: 5rem;
     a {
-      color: dimgrey;
+      color: $color3;
       text-decoration: none;
     }
   }
@@ -187,14 +194,14 @@ img {
   p {
     text-transform: uppercase;
     &:hover {
-      background-color: #a7cfe2;
+      background-color: $color1;
     }
   }
   a {
     text-decoration: none;
-    color: black;
+    color: $color3;
     &:hover {
-      background-color: #a7cfe2;
+      background-color: $color1;
     }
   }
   ul {
@@ -202,7 +209,7 @@ img {
 
     li {
       padding-left: 2rem;
-      color: black;
+      color: $color3;
     }
   }
 
@@ -211,7 +218,7 @@ img {
 
 .opening {
   padding-top : 4rem;
-  color: dimgrey;
+  color: $color3;
   background-image: url("../img/home_page_corner.png");
   background-size: 15rem;
   background-repeat: no-repeat;
@@ -229,7 +236,7 @@ img {
     text-align: right;
     p {
       font-size: 1.5rem;
-      color: dimgrey;
+      color: $color2;
       background-color: white;
       opacity: 0.8;
       margin-right: 2rem;
@@ -242,14 +249,14 @@ img {
 .article {
   text-decoration: none;
   background-color: white;
-  color: black;
+  color: $color3;
   transition: transform .3s;
   .art-name {
-    color: #a7cfe2;
+    color: $color1;
     font-size: 20px;
   }
   .art-desc {
-    color: dimgrey;
+    color: $color2;
   }
   .art-img {
     width: 275px;
@@ -262,31 +269,26 @@ img {
       transition: all .5s linear 0s;
       transform: translateX(1);
       text-align: right;
-      background-color: #a7cfe2;
+      background-color: $color1;
     }
   }
   .price {
     color: white;
   }
-  .price-container {
-
-  }
-  .price-container:hover {
-  }
 }
 
 .art-detail {
   h1 {
-    color: dimgrey;
+    color: $color2;
     font-size: 4rem;
   }
   h2 {
-    color: #a7cfe2;
+    color: $color1;
     font-size: 3rem;
   }
   h3 {
     color: white;
-    background-color: #a7cfe2;
+    background-color: $color1;
     width: 40rem;
     padding: 5px;
   }
@@ -297,13 +299,13 @@ img {
 
 //style de la page contact
 .map {
-  border-left: grey solid 1px;
-  border-top: grey solid 1px;
+  border-left: $color2 solid 1px;
+  border-top: $color2 solid 1px;
   align-items: center;
 }
 
 .card {
-  background-color: #a7cfe2;
+  background-color: $color1;
   margin-top: 5rem;
   h2 {
     background-color: #d6e7f1;
@@ -317,7 +319,7 @@ img {
 
 
 .form {
-  background-color: #a7cfe2;
+  background-color: $color1;
   margin-top: 5rem;
   h2 {
     background-color: #d6e7f1;
@@ -333,7 +335,7 @@ img {
 }
 
 .buttonform {
-  color: cornflowerblue;
+  color: $color1;
   background-color: white;
   width: 12rem;
   align-self: center;
@@ -357,7 +359,7 @@ footer {
   width: 100%;
   p {
     font-size: 1rem;
-    color: grey;
+    color: $color2;
     text-align: center;
   }
 }
