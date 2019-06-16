@@ -1,6 +1,7 @@
 @media screen and (min-width: 320px) {
   .container {
     display: flex;
+    flex-wrap: wrap;
     max-width: 767px;
     margin-left: auto;
     margin-right: auto;
@@ -35,6 +36,7 @@
 @media screen and (min-width: 768px) {
   .container {
     display: flex;
+    flex-wrap: wrap;
     max-width: 1279px;
     margin-left: auto;
     margin-right: auto;
@@ -110,7 +112,8 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: black;
-  background-color: white; }
+  background-color: white;
+  box-sizing: border-box; }
 
 img {
   max-width: 100%;
