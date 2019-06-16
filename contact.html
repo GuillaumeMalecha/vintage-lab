@@ -55,19 +55,20 @@
                 </div>
                 <div class="form col-lg-8 col-md-8">
                     <h2 class="sm-hidden">Contactez-nous</h2>
-                    <form class="contactform">
-                        <p>Nom
-                        <input type="text" name="nom" value=""/>
-                        </p>
-                        <p>Prénom
-                        <input type="text" name="prenom" value=""/>
-                        </p>
-                        <p>Email
-                        <input type="text" name="email" value=""/>
-                        </p>
-                        <p><input type="checkbox" name="newsletter" value="Y">Je désire recevoir la newsletter</p>
-                        <input class="buttonform" type="submit" name="validate" value="Envoyer"/>
-                        <textarea name="comment">Un commentaire ?</textarea>
+                    <form class="container">
+                        <div class="col-lg-6 col-md-6">
+                            <p>Nom</p>
+                            <input class="contactelement" type="text" name="nom" value=""/>
+                            <p>Prénom</p>
+                            <input class="contactelement" type="text" name="prenom" value=""/>
+                            <p>Email</p>
+                            <input class="contactelement" type="text" name="email" value=""/>
+                            <p><input type="checkbox" name="newsletter" value="Y">Je désire recevoir la newsletter</p>
+                            <input class="buttonform" type="submit" name="validate" value="Envoyer"/>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <textarea class="commentaire" name="comment">Un commentaire ?</textarea>
+                        </div>
 
                     </form>
                 </div>

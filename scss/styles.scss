@@ -218,7 +218,7 @@ img {
 
 .opening {
   padding-top : 4rem;
-  color: $color3;
+  color: $color2;
   background-image: url("../img/home_page_corner.png");
   background-size: 15rem;
   background-repeat: no-repeat;
@@ -249,7 +249,6 @@ img {
 .article {
   text-decoration: none;
   background-color: white;
-  color: $color3;
   transition: transform .3s;
   .art-name {
     color: $color1;
@@ -279,7 +278,7 @@ img {
 
 .art-detail {
   h1 {
-    color: $color2;
+    color: black;
     font-size: 4rem;
   }
   h2 {
@@ -294,6 +293,10 @@ img {
   }
   h4 {
     font-size: 2rem;
+    color: black;
+  }
+  p {
+    color: black;
   }
 }
 
@@ -328,16 +331,21 @@ img {
   }
 }
 
-.contactform {
-  p {
-    padding-right: 30px;
-  }
+
+.contactelement {
+  width: 30rem;
+  height: 4rem;
+  margin-top: -1rem;
+  border: none;
+  border-radius: 5px;
 }
 
 .buttonform {
   color: $color1;
   background-color: white;
   width: 12rem;
+  margin-left: 18rem;
+  margin-bottom: 5rem;
   align-self: center;
   text-align: center;
   padding: 1.5rem;
@@ -345,6 +353,14 @@ img {
   font-size: 2rem;
   border: none;
   border-radius: 5px;
+}
+
+.commentaire {
+  width: 30rem;
+  height: 35rem;
+  border: none;
+  border-radius: 5px;
+  color: $color2;
 }
 
 //propriété des images de la galerie, pour l'instant ne fonctionne que sur Firefox
